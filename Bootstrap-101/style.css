@@ -1,0 +1,72 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+div.product-container {
+	margin: 10px;
+}
+
+
+div.column-container {
+	margin-top: 30px;
+}
+
+div.product-block {
+	width: 260px;
+	padding: 0px 15px 0px 15px;
+	border: 1px solid #999;
+}
+
+div.product-block .title {
+	font-weight: 300;
+	text-align: center
+}
+
+div.product-block img{
+	width: 230px;
+	margin-bottom: 10px;
+}
+
+div.product-block .author {
+	font-weight: bold;
+}
+
+div.product-block .pub-year {
+}
+
+div.product-block .page {
+	margin-bottom: 10px;
+}
+
+div.product-block .price {
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+}
+
+div.product-block .add-cart {
+	float: right;
+	text-decoration: underline;
+}
+
+div.product-block .group {
+}
+
+div.product-block .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.product-block hr {
+	margin-top: 10px; /* override */
+	margin-bottom: 10px; /* override */
+}
+
+div.product-block p {
+	margin-bottom: 0px; /* override */
+}
