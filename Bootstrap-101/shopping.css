@@ -1,0 +1,150 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+div.product-container {
+  margin: 10px;
+}
+
+/* ----  Shopping Cart ---- */
+.nav > li > a.item-no {
+    padding-right: 0px;
+}
+
+.nav > li > a.shopping-cart {
+    font-size: 18px;
+}
+
+.cart-items li {
+    width: 280px;
+    padding: 0px 5px 0px 5px;
+}
+
+.cart-items li > img{
+    width: 60px;
+}
+
+.cart-items li a.product-name {
+    margin-left: 5px;
+    padding: 0px 0px;
+    display: inline-block;
+}
+
+.cart-items li a.view-cart {
+    float:left;
+}
+
+.cart-items li a.checkout {
+    float:right;
+}
+
+@media (min-width: 768px)
+    .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/* ----  Title  ---- */
+h1.search-box {
+  font-weight: 300;
+}
+
+h1 span.search-icon {
+  font-size: 80%;
+}
+
+/* ----  Shopping Table  ---- */
+table.shopping-table {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+table.shopping-table > thead > tr > td {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+table.shopping-table > tbody > tr > td {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+table.shopping-table td p {
+  margin-bottom: 0px;
+}
+
+table.shopping-table p.product-name {
+  font-weight: bold;
+}
+
+thead > tr > td {
+  background-color: #E0E0E0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+tbody > tr > td {
+  font-size: 13px;
+}
+
+td.a-text-left {
+  text-align: left;
+}
+
+td.a-text-right {
+  text-align: right;
+}
+
+div.cost-summary {
+  float: right;
+  margin-bottom: 30px;
+  padding-right: 12px;
+}
+
+div.cost-summary p {
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+div.cost-summary > p > label {
+  text-align: right;
+  width: 100px;
+}
+
+div.cost-summary > p > span {
+  text-align: right;
+  display: inline-block;
+  width: 60px;
+}
+
+div.button-bar {
+  text-align: right;
+}
+
+div.button-bar .btn {
+  margin-left: 40px;
+  padding: 8px 30px;
+}
+
+div.clear {
+  clear: both;
+}
+
+/* ----  Container Override ---- */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*  ---- Boostrap Override ---- */
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
