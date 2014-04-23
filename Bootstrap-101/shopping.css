@@ -10,12 +10,73 @@ div.product-container {
   margin: 10px;
 }
 
-/* ----  Shopping Cart ---- */
+/* ---- Navbar ---- */
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+}
+
+.top-bar {
+  color: #999;
+  clear: both;
+  display: table;
+  width: 100%;
+}
+
+.top-bar img.logo {
+  height:50px;
+}
+
+.top-bar .nav-right {
+  float: right;
+}
+
+.top-bar .nav-right > div{
+  float: left;
+  padding: 15px 0;
+}
+
+.top-bar .navbtn > div{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.top-bar .navbtn > div > a {
+  color: #999;
+  text-decoration: none;
+}
+
+.top-bar .navbtn > div > a:hover {
+  color: #FFF;
+}
+
+.top-bar .navbtn.nav-right .open > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+/* ---- Top Shopping Cart ---- */
+
+div.shopping-cart {
+  float: right;
+}
+
+.nav:before {
+  display: inline;
+}
+
+.nav > li {
+  float: left;
+}
+
 .nav > li > a.item-no {
     padding-right: 0px;
 }
 
-.nav > li > a.shopping-cart {
+.navbtn .shopping-cart-icon {
     font-size: 18px;
 }
 
@@ -24,7 +85,7 @@ div.product-container {
     padding: 0px 5px 0px 5px;
 }
 
-.cart-items li > img{
+.cart-items li > img {
     width: 60px;
 }
 
@@ -41,13 +102,6 @@ div.product-container {
 .cart-items li a.checkout {
     float:right;
 }
-
-@media (min-width: 768px)
-    .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
-
 /* ----  Title  ---- */
 h1.search-box {
   font-weight: 300;

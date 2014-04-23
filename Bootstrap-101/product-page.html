@@ -33,15 +33,14 @@
       <!-- Navigation Bar -->
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Pearson</a>
-          </div>
-          <div class="shopping-cart">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#" class="item-no">1 item</a></li>
-              <li class="dropdown">
+          <div class="top-bar color-inverse">
+            <img src="img/logo.png" class="logo">
+            
+            <div class="navbtn nav-right">
+              <div class="item-no"><a href="#">1 Item</a></div>
+              <div class="dropdown">
                 <a href="#" class="dropdown-toggle shopping-cart" data-toggle="dropdown">
-                  <span class="glyphicon glyphicon-shopping-cart"></span>
+                  <span class="glyphicon glyphicon-shopping-cart shopping-cart-icon"></span>
                   <b class="caret"></b></a>
                   <ul class="dropdown-menu cart-items">
                     <li>
@@ -56,10 +55,9 @@
                       </div>
                     </li>
                   </ul>
-                </li>
-              </ul>
-            </div>
-            <!--/.nav-collapse -->
+                </div>
+              </div>
+          </div>
           </div>
         </div>
 
@@ -73,7 +71,6 @@
           <hr>
 
           <div class="columns-container">
-
             <div class="product-block">
               <h3 class="product-name">Guide to Key Lime Pie</h3>
               <img src="http://photos-a.ak.instagram.com/hphotos-ak-frc/10299768_267394723440896_8352949_n.jpg">
@@ -145,41 +142,6 @@
             </div>
 
           </div> <!-- /Column Container -->
-
-
-          <div id="product-detail-modal" class="modal fade">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <h4 class="modal-title">Algebra II</h4>
-                </div>
-                <div class="modal-body">
-                  <p>
-                    <img src="http://photos-a.ak.instagram.com/hphotos-ak-frc/10299768_267394723440896_8352949_n.jpg">
-                    <div>
-                      <div class="group">
-                        <p class="author">By Same Jackson Jr.</p>
-                        <p class="pub-year">2011</p>
-                        <p class="page">489 Pages</p>
-                      </div>
-                      <div class="group">
-                        <p class="price">$29.99</p>
-                      </div>
-                      <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo</p>
-                    </div>
-                  </p>
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                  <button type="button" class="btn btn-primary">Add to Cart</button>
-                </div>
-              </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
-          </div><!-- /.modal -->
-
-        </div><!-- /Body Container -->
-
 
   <!-- Bootstrap core JavaScript
   ================================================== -->
